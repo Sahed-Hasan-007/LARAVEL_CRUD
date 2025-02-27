@@ -39,12 +39,12 @@
             @endif
 
             <button type="submit"
-                class="!mt-8 w-full px-4 py-2.5 mx-auto block text-sm bg-blue-500 text-white rounded hover:bg-blue-600 cursor-pointer">Submit</button>
+                class="!mt-8 w-full px-4 py-2.5 mx-auto block text-sm bg-green-500 text-white rounded hover:bg-green-600 cursor-pointer">Submit</button>
         </form>
     </div>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 button-container flex justify-center mt-8">
         <a href="{{ route('crud.index') }}">
-            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
+            <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-2xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
                 View Product
             </button>
         </a>

@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\crudController;
+use App\Http\Controllers\ManyToMany;
+
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
@@ -19,6 +21,8 @@ Route::post('crud/index',[crudController::class, 'store'])->name('crud.store');
 Route::get('crud/edit/{id}',[crudController::class, 'edit'])->name('crud.edit');
 Route::put('crud/update/{id}',[crudController::class, 'update'])->name('crud.update');
 Route::get('crud/delete/{id}',[crudController::class, 'destroy'])->name('crud.delete');
+
+Route::get('manyTomany/index',[ManyToMany::class,'index'])->name('manyTomany.index');
 
 
 

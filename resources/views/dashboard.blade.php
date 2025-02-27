@@ -7,8 +7,7 @@
     <style>
         .button-container {
             display: flex;               
-            justify-content: center;      
-            height: 100vh;                
+            justify-content: center;                    
         }
 
         .button {
@@ -38,6 +37,14 @@
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 button-container">
                 <a href="{{ route('crud.index') }}">
                    <button class="button">View Crud</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="py-12">
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 button-container">
+                <a href="{{ route('manyTomany.index') }}">
+                   <button class="button">View Many-to-Many</button>
                 </a>
             </div>
         </div>
